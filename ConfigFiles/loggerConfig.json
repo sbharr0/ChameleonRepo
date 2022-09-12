@@ -1,0 +1,23 @@
+{
+  "StandardLogFileLocation": "C:\\Apps\\CommonCoreTests\\Logs",
+  "ErrorLogFileLocation": "C:\\Apps\\CommonCoreTests\\Logs",
+  "StandardLogFileName": "commonCoreTestStandardLog",
+  "ErrorLogFileName": "commonCoreTestErrorLog",
+  "LogFileExtension": "LOG",
+  "LogEntryPrefix": "[Begin Entry]",
+  "LogEntrySuffix": "[End Entry]",
+  "SeverityIndex": {
+    "0": "Information",
+    "1": "Warning",
+    "2": "Error",
+    "3": "Fatal Error",
+    "4": "Unknown Error"
+  },
+  "BaseLineFaultSignifier": 1,
+  "LogErrorsSeperately": true,
+  "EnableVerboseLogging": true,
+  "ColorCodeConsoleMessages": true,
+  "LogWarningsWithErrors": true,
+  "WriteFailureThreshold": 100,
+  "FileWriteRetryTimeMS": 250
+}
