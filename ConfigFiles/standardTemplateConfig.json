@@ -1,0 +1,9 @@
+{
+  "ApplicationInstanceID": "Time Keeper Service",
+  "StartUpMessage": "The Time Keeper Service has started.",
+  "PlannedStopMessage": "The Service Has Stopped.",
+  "TerminationEventMessage": "The Service Has Terminated.",
+  "CommonConfigFileLocation": "C:\\Apps\\TimeKeeper\\Config",
+  "LoggerConfigFileName": "loggerConfig",
+  "CommonConfigFileExtension": "json"
+}
