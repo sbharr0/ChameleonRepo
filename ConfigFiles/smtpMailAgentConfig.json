@@ -1,0 +1,35 @@
+{
+	"Port": null,
+	"MaxResendAttempts": 0,
+	"OnErrorSleepTime: 0.0,
+	"ServerAddress": "some.smtpServer.net",
+	"Sender": "someone@somewhere.com",
+	"DefaultSubjectText": "This Correspondence Contains Info That You May Want To Know.",
+	"DefaultMessageBody": {
+		"There was no data added to the message body.",
+		"This is just filler text so it won't be an empty e-mail.",
+		"Because that would be kind of awkward..."
+	},
+	"PrimaryRecepients":{
+		"recepient1@somewhere.com",
+		"recepient2@somewhere.com",
+		"recepient3@somewhere.com"
+	},
+	"CCRecepients":{
+		"ccRecepient1@somewhere.com",
+		"ccRecepient2@somewhere.com",
+		"ccRecepient3@somewhere.com"
+	},
+	"BCCRecepients":{
+		"bccRecepient1@somewhere.com",
+		"bccRecepient2@somewhere.com",
+		"bccRecepient3@somewhere.com"
+	},
+	"Footer":{
+		"Please do not reply directly to this e-mail",
+		"It came from a mailbox that is not monitored.",
+		"Please direct all question and concerns to: someone@somewhere.com"
+	},
+	
+	
+}
