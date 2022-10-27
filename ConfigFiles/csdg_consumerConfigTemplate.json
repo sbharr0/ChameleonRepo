@@ -1,0 +1,49 @@
+{
+  "EnablePartitionEof": false,
+  "IsolationLevel": "read_committed",
+  "FetchErrorBackoffMs": 500,
+  "FetchMinBytes": 1,
+  "FetchMaxBytes": 52428800,
+  "MaxPartitionFetchBytes": 1048576,
+  "FetchWaitMaxMs": 500,
+  "QueuedMaxMessagesKbytes": 65536,
+  "QueuedMinMessages": 100000,
+  "EnableAutoOffsetStore": false,
+  "AutoCommitIntervalMs": 5000,
+  "EnableAutoCommit": false,
+  "MaxPollIntervalMs": 3600000,
+  "CoordinatorQueryIntervalMs": 600000,
+  "GroupProtocolType": "consumer",
+  "HeartbeatIntervalMs": 10000,
+  "SessionTimeoutMs": 30000,
+  "PartitionAssignmentStrategy": "range",
+  "GroupInstanceId": "",
+  "GroupId": "Chameleon Consumer Group 000",
+  "AutoOffsetReset": "Earliest",
+  "ConsumeResultFields": "all",
+  "CheckCrcs": false,
+  "AllowAutoCreateTopics": false,
+  "ClientId": null,
+  "SecureProfilePasswordIsRequired": true,
+  "TargetSecurityProfile": "ChameleonTemplateSecurityProfile001",
+  "SecurityProfilesCatalog": {
+    "ChameleonTemplateSecurityProfile001": {
+      "brokers": "broker001, broker002, broker003",
+      "port number": "1000",
+      "security protocol": "ssl",
+      "ssl key password": "superSecurePassword001",
+      "ssl certificate path": "A:\\Path\\To\\This\\Profiles\\SSL Certificate\\file",
+      "ssl key path": "A:\\Path\\To\\This\\Profiles\\SSL Key\\file"
+    },
+    "ChameleonTemplateSecurityProfile002": {
+      "brokers": "another-broker001:1000, another-broker002:2000, another-broker003:3000",
+      "port number": null,
+      "security protocol": "ssl",
+      "ssl key password": "superSecurePassword002",
+      "ssl certificate path": "A:\\Path\\To\\This\\Profiles\\SSL Certificate\\file",
+      "ssl key path": "A:\\Path\\To\\This\\Profiles\\SSL Key\\file"
+    }
+  }
+
+
+}
