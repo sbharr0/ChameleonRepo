@@ -1,5 +1,6 @@
 {
   "EnablePartitionEof": false,
+  "EnableOffsetAcquisitionIndexing": true,
   "IsolationLevel": "read_committed",
   "FetchErrorBackoffMs": 500,
   "FetchMinBytes": 1,
@@ -16,6 +17,7 @@
   "GroupProtocolType": "consumer",
   "HeartbeatIntervalMs": 10000,
   "SessionTimeoutMs": 30000,
+  "OffsetArchiveCapacity": 200,
   "PartitionAssignmentStrategy": "range",
   "GroupInstanceId": "",
   "GroupId": "Chameleon Consumer Group 000",
@@ -44,6 +46,4 @@
       "ssl key path": "A:\\Path\\To\\This\\Profiles\\SSL Key\\file"
     }
   }
-
-
 }
