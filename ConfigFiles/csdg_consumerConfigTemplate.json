@@ -18,6 +18,8 @@
   "HeartbeatIntervalMs": 10000,
   "SessionTimeoutMs": 30000,
   "OffsetArchiveCapacity": 200,
+  "RateCalculationFloorMins": 30,
+  "SubscriptionActivityNotificationValue": 1000,
   "PartitionAssignmentStrategy": "range",
   "GroupInstanceId": "",
   "GroupId": "Chameleon Consumer Group 000",
