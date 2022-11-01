@@ -1,6 +1,7 @@
 {
   "EnablePartitionEof": false,
   "EnableOffsetAcquisitionIndexing": true,
+  "EnableOffsetAcquisitionArchivinging": true,
   "IsolationLevel": "read_committed",
   "FetchErrorBackoffMs": 500,
   "FetchMinBytes": 1,
