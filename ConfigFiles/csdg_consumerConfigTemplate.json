@@ -30,7 +30,9 @@
   "AllowAutoCreateTopics": false,
   "ClientId": null,
   "SecureProfilePasswordIsRequired": true,
+  "StoreOffsetOnDataCommit": true,
   "TargetSecurityProfile": "ChameleonTemplateSecurityProfile001",
+
   "SecurityProfilesCatalog": {
     "ChameleonTemplateSecurityProfile001": {
       "brokers": "broker001, broker002, broker003",
